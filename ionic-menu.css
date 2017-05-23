@@ -1,0 +1,200 @@
+/* line 17, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .menu.menu-right {
+  width: calc(100% - 50px) !important;
+  height: 100%;
+  display: block;
+  background-color: #ce2929;
+  background-image: -moz-linear-gradient(#ce2929, #910000);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ce2929), to(#910000));
+  background-image: -webkit-linear-gradient(#ce2929, #910000);
+  background-image: -o-linear-gradient(#ce2929, #910000);
+  background-image: linear-gradient(#ce2929, #910000); }
+  /* line 22, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu.menu-right .scroll {
+    height: 100%; }
+
+/* line 26, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .menu.menu-left {
+  width: calc(100% - 50px) !important;
+  height: 100%;
+  display: block;
+  background-color: #ce2929;
+  background-image: -moz-linear-gradient(#ce2929, #910000);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ce2929), to(#910000));
+  background-image: -webkit-linear-gradient(#ce2929, #910000);
+  background-image: -o-linear-gradient(#ce2929, #910000);
+  background-image: linear-gradient(#ce2929, #910000); }
+  /* line 31, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu.menu-left .scroll {
+    height: 100%; }
+
+/* line 35, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .menu-container {
+  min-height: 100%;
+  margin-bottom: -50px; }
+  /* line 38, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu-container .menu-backdrop {
+    width: 0;
+    height: 0;
+    z-index: -1;
+    background: transparent; }
+  /* line 45, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu-container.open .menu-backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background 0.5s ease;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed; }
+  /* line 54, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu-container:after {
+    content: "";
+    display: block;
+    height: 50px; }
+  /* line 59, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu-container .first-level-container {
+    box-shadow: none;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    /* line 64, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .menu-container .first-level-container .header {
+      height: 160px;
+      color: #FFF;
+      text-align: center; }
+      /* line 68, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .menu-container .first-level-container .header .icon {
+        padding-top: 20px;
+        font-size: 23px;
+        z-index: 9; }
+      /* line 73, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .menu-container .first-level-container .header .ion-close-round {
+        float: right;
+        padding-right: 20px; }
+      /* line 77, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .menu-container .first-level-container .header .san-seguimiento {
+        padding-right: 20px;
+        float: right; }
+      /* line 81, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .menu-container .first-level-container .header .ion-log-out {
+        padding-left: 10px;
+        float: left; }
+      /* line 85, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .menu-container .first-level-container .header .profile-pict {
+        display: inline-block;
+        padding: 50px 0; }
+        /* line 88, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+        ionic-menu .menu-container .first-level-container .header .profile-pict img {
+          border-radius: 50%;
+          width: 65px;
+          height: 65px; }
+        /* line 93, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+        ionic-menu .menu-container .first-level-container .header .profile-pict span {
+          display: block; }
+
+/* line 100, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .menu-footer {
+  height: 50px; }
+  /* line 102, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .menu-footer.menu-version {
+    text-align: center;
+    color: #FFF;
+    font-size: 100%; }
+
+/* line 108, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .list {
+  position: initial; }
+
+/* line 113, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .item-container:first-child > .item {
+  border-top: 0; }
+
+/* line 118, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .item {
+  background: transparent;
+  color: #FFF;
+  border: 0;
+  border-top: 1px solid #ed7878;
+  margin: 0 10px;
+  font-size: 14px; }
+  /* line 125, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .item.activated {
+    background: #ed7878;
+    border-color: #ed7878; }
+  /* line 129, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .item .icon {
+    font-size: 25px; }
+    /* line 131, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .item .icon.ion-ios-arrow-forward {
+      font-size: 20px; }
+  /* line 135, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .item.item-icon-left {
+    padding-left: 44px; }
+    /* line 137, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .item.item-icon-left .icon {
+      left: auto; }
+      /* line 139, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .item.item-icon-left .icon:first-child {
+        left: 1px; }
+
+/* line 145, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+ionic-menu .second-level-menu {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0; }
+  /* line 151, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .second-level-menu.open .second-level-menu-content {
+    left: 50px; }
+  /* line 154, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .second-level-menu .item:first-child {
+    border-top: 0; }
+  /* line 157, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+  ionic-menu .second-level-menu .second-level-menu-content {
+    background-color: #ce2929;
+    background-image: -moz-linear-gradient(#ce2929, #910000);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ce2929), to(#910000));
+    background-image: -webkit-linear-gradient(#ce2929, #910000);
+    background-image: -o-linear-gradient(#ce2929, #910000);
+    background-image: linear-gradient(#ce2929, #910000);
+    position: absolute;
+    left: 100%;
+    height: 100%;
+    z-index: 99;
+    transition: left .5s;
+    width: calc(100% - 50px); }
+    /* line 165, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .second-level-menu .second-level-menu-content .header {
+      padding-top: 50px; }
+      /* line 167, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .second-level-menu .second-level-menu-content .header .icon {
+        border-radius: 50%;
+        font-size: 40px;
+        padding: 8px;
+        background: #FFF;
+        color: #ce2929;
+        width: 55px;
+        height: 55px;
+        display: block;
+        margin: 0 auto; }
+      /* line 178, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+      ionic-menu .second-level-menu .second-level-menu-content .header h2 {
+        color: #FFF;
+        font-size: 16px; }
+    /* line 183, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .second-level-menu .second-level-menu-content .san-arrow_left {
+      font-size: 12px; }
+    /* line 186, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+    ionic-menu .second-level-menu .second-level-menu-content p {
+      padding: 20px;
+      color: #FFF;
+      text-align: center; }
+
+/* line 195, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+.menu-open .menu-content.right {
+  transform: translate3d(calc( 0px - (100% - 50px)), 0px, 0px) !important; }
+
+/* line 198, /Users/argomez/dev/ionic-menu/www/src/components/ionic-menu/ionic-menu.scss */
+.menu-open .menu-content.left {
+  transform: translate3d(calc(100% - 50px), 0px, 0px) !important; }
