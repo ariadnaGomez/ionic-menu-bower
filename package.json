@@ -1,0 +1,24 @@
+{
+  "name": "ionic-menu-bower",
+  "version": "1.0.0",
+  "description": "Multilevel ionic menu",
+  "main": "ionic-menu.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariadnaGomez/ionic-menu-bower.git"
+  },
+  "keywords": [
+    "ionic",
+    "menu",
+    "multilevel"
+  ],
+  "author": "Ariadna Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariadnaGomez/ionic-menu-bower/issues"
+  },
+  "homepage": "https://github.com/ariadnaGomez/ionic-menu-bower#readme"
+}
