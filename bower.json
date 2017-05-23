@@ -1,0 +1,18 @@
+{
+  "name": "ionic-menu-bower",
+  "description": "Multilevel ionic menu",
+  "main": "ionic-menu.min.js",
+  "authors": [
+    "Ariadna Gomez"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ionic",
+    "menu",
+    "multilevel"
+  ],
+  "homepage": "https://github.com/ariadnaGomez/ionic-menu-bower",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.3.3"
+  }
+}
